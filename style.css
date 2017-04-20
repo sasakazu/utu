@@ -3,8 +3,22 @@ Theme Name: utu
 Description: site play
 Author: kazuya sasakura
 Version: 1.0
-License: 
+License:
 */
-/* line 10, style.scss */
-h1 {
-  color: red; }
+/* line 11, style.scss */
+small {
+  font-size: 7px !important;
+  margin-left: 33px; }
+
+/* line 17, style.scss */
+.navbar-default {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 24, style.scss */
+footer {
+  background: #333333;
+  color: #FFF;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
