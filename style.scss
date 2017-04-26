@@ -95,6 +95,8 @@ footer {
 
   img {
     float: left;
+    height: 110px;
+    width: 160px;
 
   }
 
@@ -109,13 +111,16 @@ footer {
 
 
 .top-rank-contents {
-  border-bottom: 1px dashed #e94b21;
+  // border-bottom: 1px dashed #e94b21;
   padding-top: 23px;
   padding-bottom: 15px;
   margin-left: 1px;
 
   img {
-    float: left;
+      display: block;
+      margin: 0 auto;
+      height: 210px;
+      width: 260px;
 
   }
 

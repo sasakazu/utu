@@ -70,26 +70,30 @@ footer {
   padding-bottom: 15px; }
   /* line 96, style.scss */
   .top-new-contents img {
-    float: left; }
-  /* line 101, style.scss */
+    float: left;
+    height: 110px;
+    width: 160px; }
+  /* line 103, style.scss */
   .top-new-contents a {
     font-size: 25px; }
-  /* line 105, style.scss */
+  /* line 107, style.scss */
   .top-new-contents p {
     color: #999; }
 
-/* line 111, style.scss */
+/* line 113, style.scss */
 .top-rank-contents {
-  border-bottom: 1px dashed #e94b21;
   padding-top: 23px;
   padding-bottom: 15px;
   margin-left: 1px; }
-  /* line 117, style.scss */
+  /* line 119, style.scss */
   .top-rank-contents img {
-    float: left; }
-  /* line 122, style.scss */
+    display: block;
+    margin: 0 auto;
+    height: 210px;
+    width: 260px; }
+  /* line 127, style.scss */
   .top-rank-contents a {
     font-size: 25px; }
-  /* line 126, style.scss */
+  /* line 131, style.scss */
   .top-rank-contents p {
     color: #999; }
