@@ -3,21 +3,20 @@
 
 
 
+<div class="row single-wrapper">
+  <!-- <div class="container"> -->
+    <div class="col-md-8 single-contentes-wrapper">
+
 
 
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 
-   <div class="post col-md-8">
-     <div class="post-date">
-       <p><?php echo get_post_time('F d, Y'); ?></p>
-     </div>
 
      <h1><?php the_title(); ?></h1>
 
      <p><?php the_content(); ?>  </p>
 
-   </div>
 
   <?php endwhile; ?>
 
@@ -28,7 +27,15 @@
 
   <?php endif; ?>
 
+</div>
 
-  <?php get_sidebar(); ?>
+<?php get_sidebar(); ?>
+
+</div>
+</div>
+
+<!-- </div> -->
+
+
 
 <?php get_footer(); ?>
